@@ -20,7 +20,7 @@ public class Tc_00loginpage extends BaseClass {
 		
 		LoginPage log = new LoginPage(driver);
 		log.Clicklogin();
-		//test.log(LogStatus.INFO, "Click the login button");
+		test.log(LogStatus.INFO, "Click the login button");
 		
 
 		Thread.sleep(4000);
