@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="loginsuite" duration-ms="34784" started-at="2019-08-30T13:48:39Z" finished-at="2019-08-30T13:49:14Z">
+    <groups>
+    </groups>
+    <test name="logintestTest" duration-ms="34784" started-at="2019-08-30T13:48:39Z" finished-at="2019-08-30T13:49:14Z">
+      <class name="com.pentpractice.testcases.Tc_00loginpage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@436e852b]" name="setup" is-config="true" duration-ms="4760" started-at="2019-08-30T13:48:39Z" finished-at="2019-08-30T13:48:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@436e852b]" name="logintest" duration-ms="9608" started-at="2019-08-30T13:48:44Z" finished-at="2019-08-30T13:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@436e852b]" name="teardoem" is-config="true" duration-ms="0" started-at="2019-08-30T13:48:53Z" finished-at="2019-08-30T13:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardoem -->
+      </class> <!-- com.pentpractice.testcases.Tc_00loginpage -->
+      <class name="com.pentpractice.testcases.Tc_002loginpage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pentpractice.testcases.Tc_002loginpage@1d8d30f7]" name="setup" is-config="true" duration-ms="5209" started-at="2019-08-30T13:49:03Z" finished-at="2019-08-30T13:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest2()[pri:0, instance:com.pentpractice.testcases.Tc_002loginpage@1d8d30f7]" name="logintest2" duration-ms="5465" started-at="2019-08-30T13:49:08Z" finished-at="2019-08-30T13:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest2 -->
+        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.pentpractice.testcases.Tc_002loginpage@1d8d30f7]" name="teardoem" is-config="true" duration-ms="0" started-at="2019-08-30T13:49:14Z" finished-at="2019-08-30T13:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardoem -->
+      </class> <!-- com.pentpractice.testcases.Tc_002loginpage -->
+      <class name="com.pentpractice.testcases.Tc_003loginpage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@32d2fa64]" name="setup" is-config="true" duration-ms="5031" started-at="2019-08-30T13:48:53Z" finished-at="2019-08-30T13:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest3()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@32d2fa64]" name="logintest3" duration-ms="4676" started-at="2019-08-30T13:48:58Z" finished-at="2019-08-30T13:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest3 -->
+        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@32d2fa64]" name="teardoem" is-config="true" duration-ms="1" started-at="2019-08-30T13:49:03Z" finished-at="2019-08-30T13:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardoem -->
+      </class> <!-- com.pentpractice.testcases.Tc_003loginpage -->
+    </test> <!-- logintestTest -->
+  </suite> <!-- loginsuite -->
+</testng-results>
