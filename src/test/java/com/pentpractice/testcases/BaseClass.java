@@ -29,6 +29,8 @@ public class BaseClass {
 
 	@BeforeClass
 	public void setup() {
+		
+		
 		/*
 		 * System.setProperty("webdriver.chrome.driver",
 		 * System.getProperty("user.dir")+"//driver//chromedriver.exe"); driver=new

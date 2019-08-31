@@ -23,8 +23,7 @@ public class Readconfig
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.out.println("Exception is"+e.getMessage());
-		}
-		
+		}	
 	}
 	public String getapplication() 
 	{
