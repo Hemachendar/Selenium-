@@ -10,10 +10,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 
-import com.pnetpractice.Utilitys.Extentmanager;
 import com.pnetpractice.Utilitys.Readconfig;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
+
 
 public class BaseClass {
 	
@@ -24,11 +22,11 @@ public class BaseClass {
 	public String woringusrname=Readcofig.getworingusrname();
 	public String woringpassword=Readcofig.getworingpasswrd();
 	public static WebDriver driver;
-	public static ExtentReports e = Extentmanager.getinstance();
-	public static ExtentTest test;
-
+	
+	
 	@BeforeClass
 	public void setup() {
+		
 		
 		
 		/*
@@ -45,7 +43,7 @@ public class BaseClass {
 
 	@AfterClass
 	public void teardoem() {
-		//driver.quit();
+		driver.quit();
 	}
 
 }

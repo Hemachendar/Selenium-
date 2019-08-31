@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="loginsuite">
-  <test thread-count="5" name="logintestTest">
-    <classes>
-      <class name="com.pentpractice.testcases.Tc_00loginpage"/>
-      <class name="com.pentpractice.testcases.Tc_003loginpage"/>
-      <class name="com.pentpractice.testcases.Tc_002loginpage"/>
-    </classes>
-  </test> <!-- logintestTest -->
+	<listeners>
+		<listener class-name="com.pnetpractice.Utilitys.ExtentReporting" />
+	</listeners>
+	<test thread-count="5" name="logintestTest">
+		<classes>
+			<class name="com.pentpractice.testcases.Tc_00loginpage" />
+			<class name="com.pentpractice.testcases.Tc_003loginpage" />
+			<class name="com.pentpractice.testcases.Tc_002loginpage" />
+		</classes>
+	</test> <!-- logintestTest -->
 </suite> <!-- loginsuite -->
