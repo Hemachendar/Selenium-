@@ -35,7 +35,7 @@ public class Tc_00loginpage extends BaseClass {
 		
 
 		log.clickonsubmit();
-		Screenshorts.getscreenshort();
+		//Screenshorts.getscreenshort();
 		
 
 		// jobs in South Africa|job search||pnet.co.za
@@ -54,6 +54,9 @@ public class Tc_00loginpage extends BaseClass {
 
 		if (driver.getTitle().equals("Jobs in South Africa | Job search | Pnet.co.za")) {
 			Assert.assertTrue(true);
+			Thread.sleep(2000);
+			Screenshorts.getscreenshort();
+			
 		} else {
 			Assert.assertTrue(false);
 		}

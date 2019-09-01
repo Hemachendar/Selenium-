@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="logintestTest(failed)">
     <classes>
-      <class name="com.pentpractice.testcases.Tc_002loginpage">
+      <class name="com.pentpractice.testcases.Tc_003loginpage">
         <methods>
           <include name="teardoem"/>
-          <include name="logintest2" invocation-numbers="0 1 2 3 4"/>
+          <include name="logintest3"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.pentpractice.testcases.Tc_002loginpage -->
+      </class> <!-- com.pentpractice.testcases.Tc_003loginpage -->
     </classes>
   </test> <!-- logintestTest(failed) -->
 </suite> <!-- Failed suite [loginsuite] -->
