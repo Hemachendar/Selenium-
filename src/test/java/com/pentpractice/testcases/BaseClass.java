@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -26,6 +28,7 @@ public class BaseClass {
 	public String woringusrname=Readcofig.getworingusrname();
 	public String woringpassword=Readcofig.getworingpasswrd();
 	public static WebDriver driver;
+	public static Logger logger;
 	
 	
 	@BeforeClass
@@ -41,8 +44,12 @@ public class BaseClass {
 
 		driver = new FirefoxDriver();
 		
+		logger=Logger.getLogger("pnetpractice");
+		PropertyConfigurator.configure("log4j.properties");
+		
+		
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		driver.get(Baseurl);
+		//driver.get(Baseurl);
 	}
 
 	@AfterClass

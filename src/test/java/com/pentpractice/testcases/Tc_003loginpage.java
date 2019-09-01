@@ -18,11 +18,18 @@ public class Tc_003loginpage extends BaseClass
 	public void logintest3() throws IOException, InterruptedException 
 	{
 		driver.get(Baseurl);
+		logger.info("navigate the Url");
 		LoginPage log=new LoginPage(driver);
 		log.Clicklogin();
+		logger.info("click the link");
+		
 		log.setusername(usrname);
+		logger.info("Enter the user name");
+		
 		log.Setpassword(woringpassword);
+		logger.info("enter the wrong password");
 		log.clickonsubmit();
+		logger.info("click on login button");
 		/*
 		 * List<WebElement> named = driver.findElements(By.xpath(
 		 * "/html/body/div[6]/div/div/div/div[1]/div/div/div/div/div/div/div/div/div/div/div/div/div[1]/div"
@@ -39,10 +46,11 @@ public class Tc_003loginpage extends BaseClass
 		{
 			Assert.assertTrue(false);
 			Thread.sleep(2000);
+			logger.info("log in succsess");
 			Screenshorts.getscreenshort();
 		}else 
 		{
-			
+			logger.info("login fail");
 			Assert.assertTrue(true);
 		
 			

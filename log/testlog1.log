@@ -1,0 +1,11 @@
+2019-09-01 13:17:37,281 [main] INFO pnetpractice - navigate the Url
+2019-09-01 13:17:37,670 [main] INFO pnetpractice - click the link
+2019-09-01 13:17:41,908 [main] INFO pnetpractice - Enter the user name
+2019-09-01 13:17:41,995 [main] INFO pnetpractice - enter the password
+2019-09-01 13:17:42,289 [main] INFO pnetpractice - click on login button
+2019-09-01 13:17:42,308 [main] INFO pnetpractice - log in succsess
+2019-09-01 13:17:54,142 [main] INFO pnetpractice - navigate the Url
+2019-09-01 13:17:54,517 [main] INFO pnetpractice - click the link
+2019-09-01 13:17:54,693 [main] INFO pnetpractice - Enter the user name
+2019-09-01 13:17:54,817 [main] INFO pnetpractice - enter the wrong password
+2019-09-01 13:17:55,110 [main] INFO pnetpractice - click on login button

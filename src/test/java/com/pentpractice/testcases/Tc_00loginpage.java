@@ -19,22 +19,25 @@ public class Tc_00loginpage extends BaseClass {
 
 		
 		driver.get(Baseurl);
-		
+		logger.info("navigate the Url");
 		
 		LoginPage log = new LoginPage(driver);
 		log.Clicklogin();
+		logger.info("click the link");
 		
 		
 
 		Thread.sleep(4000);
 
 		log.setusername(usrname);
+		logger.info("Enter the user name");
 		
 
 		log.Setpassword(password);
-		
+		logger.info("enter the password");
 
 		log.clickonsubmit();
+		logger.info("click on login button");
 		//Screenshorts.getscreenshort();
 		
 
@@ -54,11 +57,13 @@ public class Tc_00loginpage extends BaseClass {
 
 		if (driver.getTitle().equals("Jobs in South Africa | Job search | Pnet.co.za")) {
 			Assert.assertTrue(true);
+			logger.info("log in succsess");
 			Thread.sleep(2000);
 			Screenshorts.getscreenshort();
 			
 		} else {
 			Assert.assertTrue(false);
+			logger.info("login fail");
 		}
 
 	}

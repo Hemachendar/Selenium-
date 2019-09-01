@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="loginsuite" duration-ms="32966" started-at="2019-09-01T09:45:22Z" finished-at="2019-09-01T09:45:55Z">
+  <suite name="loginsuite" duration-ms="28833" started-at="2019-09-01T11:17:28Z" finished-at="2019-09-01T11:17:56Z">
     <groups>
     </groups>
-    <test name="logintestTest" duration-ms="32966" started-at="2019-09-01T09:45:22Z" finished-at="2019-09-01T09:45:55Z">
+    <test name="logintestTest" duration-ms="28833" started-at="2019-09-01T11:17:28Z" finished-at="2019-09-01T11:17:56Z">
       <class name="com.pentpractice.testcases.Tc_00loginpage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@7cd62f43]" name="setup" is-config="true" duration-ms="10228" started-at="2019-09-01T09:45:22Z" finished-at="2019-09-01T09:45:32Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@7cd62f43]" name="setup" is-config="true" duration-ms="4833" started-at="2019-09-01T11:17:28Z" finished-at="2019-09-01T11:17:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@7cd62f43]" name="logintest" duration-ms="7956" started-at="2019-09-01T09:45:32Z" finished-at="2019-09-01T09:45:40Z">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@7cd62f43]" name="logintest" duration-ms="11229" started-at="2019-09-01T11:17:33Z" finished-at="2019-09-01T11:17:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@7cd62f43]" name="teardoem" is-config="true" duration-ms="1797" started-at="2019-09-01T09:45:40Z" finished-at="2019-09-01T09:45:42Z">
+        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@7cd62f43]" name="teardoem" is-config="true" duration-ms="1546" started-at="2019-09-01T11:17:44Z" finished-at="2019-09-01T11:17:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardoem -->
       </class> <!-- com.pentpractice.testcases.Tc_00loginpage -->
       <class name="com.pentpractice.testcases.Tc_003loginpage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@6d4b1c02]" name="setup" is-config="true" duration-ms="9045" started-at="2019-09-01T09:45:42Z" finished-at="2019-09-01T09:45:51Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@6d4b1c02]" name="setup" is-config="true" duration-ms="4497" started-at="2019-09-01T11:17:45Z" finished-at="2019-09-01T11:17:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="logintest3()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@6d4b1c02]" name="logintest3" duration-ms="1912" started-at="2019-09-01T09:45:51Z" finished-at="2019-09-01T09:45:53Z">
+        <test-method status="FAIL" signature="logintest3()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@6d4b1c02]" name="logintest3" duration-ms="4646" started-at="2019-09-01T11:17:50Z" finished-at="2019-09-01T11:17:55Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -36,7 +36,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at com.pentpractice.testcases.Tc_003loginpage.logintest3(Tc_003loginpage.java:40)
+at com.pentpractice.testcases.Tc_003loginpage.logintest3(Tc_003loginpage.java:47)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -68,7 +68,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest3 -->
-        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@6d4b1c02]" name="teardoem" is-config="true" duration-ms="1726" started-at="2019-09-01T09:45:53Z" finished-at="2019-09-01T09:45:55Z">
+        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@6d4b1c02]" name="teardoem" is-config="true" duration-ms="1828" started-at="2019-09-01T11:17:55Z" finished-at="2019-09-01T11:17:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardoem -->
