@@ -38,7 +38,7 @@ public class BaseClass {
 		driver = new FirefoxDriver();
 		
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-
+		driver.get(Baseurl);
 	}
 
 	@AfterClass

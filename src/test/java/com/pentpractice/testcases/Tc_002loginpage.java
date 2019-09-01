@@ -6,39 +6,79 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.pnetpractice.Pageobject.LoginPage;
 import com.pnetpractice.Utilitys.Screenshorts;
+import com.pnetpractice.Utilitys.XLUtils;
+
+
+// Data Driven testing class
 
 public class Tc_002loginpage extends BaseClass
 {
-	@Test
-	public void logintest2() throws IOException 
+	@Test(dataProvider = "Testdata")
+	public void logintest2(String username,String passwrd) throws InterruptedException  
 	{
-		driver.get(Baseurl);
+		//driver.get(Baseurl);
 		LoginPage page=new LoginPage(driver);
 		page.Clicklogin();
-		page.setusername(woringusrname);
-		page.Setpassword(woringpassword);
+		page.setusername(username);
+		page.Setpassword(passwrd);
 		page.clickonsubmit();
-		Screenshorts.getscreenshort();
 		
-		 List<WebElement> named = driver.findElements(By.xpath("/html/body/div[6]/div/div/div/div[1]/div/div/div/div/div/div/div/div/div/div/div/div/div[1]/div"));
-			for (WebElement itr:named)
+		Thread.sleep(3000);
+		
+		if (isLoginpage()==true) 
+		{
+			
+			Assert.assertTrue(true);
+			page.droupdownclick();
+			page.logout();
+			page.Clicklogin();
+		}else 
+		{
+			Assert.assertTrue(false);
+			Thread.sleep(3000);
+			//page.droupdownclick();
+			//page.logout();
+			page.Clicklogin();
+		}
+		
+	}
+	
+	public boolean isLoginpage() 
+	{
+		try 
+		{
+			driver.navigate().refresh();
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+		
+		
+		
+	}
+	
+	@DataProvider(name="Testdata")
+	String [][]getData() throws Exception
+	{
+		String path = System.getProperty("user.dir")+"/src/test/java/com/pnetpractice/testdata/LoginData.xlsx";
+		int rownum = XLUtils.getRowCount(path, "sheet1");
+		int colcount = XLUtils.getCellCount(path, "sheet1", 1);
+		
+		String logindata[][] = new String[rownum][colcount];
+		for (int i = 1; i <=rownum; i++) 
+		{
+			for (int j = 0; j <colcount; j++) 
 			{
-				System.out.println(itr.getAttribute("innerHTML"));
-				if (itr.getText().contains("Jobs in South Africa | Job search | Pnet.co.za"))
-				{
-					itr.click();
-				}
+				logindata[i-1][j]=XLUtils.getCellData(path,"sheet1",i,j);
 				
 			}
-		
-		/*
-		 * if(driver.getTitle().equals("Jobs in South Africa | Job search | Pnet.co.za"
-		 * )) { Assert.assertTrue(true); }else { Assert.assertTrue(false); }
-		 */
+			
+		}
+		return logindata;
 	}
-
 }

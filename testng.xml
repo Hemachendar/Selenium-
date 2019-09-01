@@ -6,8 +6,8 @@
 	</listeners>
 	<test thread-count="5" name="logintestTest">
 		<classes>
-			<class name="com.pentpractice.testcases.Tc_00loginpage" />
-			<class name="com.pentpractice.testcases.Tc_003loginpage" />
+		<!-- 	<class name="com.pentpractice.testcases.Tc_00loginpage" /> -->
+		<!-- 	<class name="com.pentpractice.testcases.Tc_003loginpage" /> -->
 			<class name="com.pentpractice.testcases.Tc_002loginpage" />
 		</classes>
 	</test> <!-- logintestTest -->
