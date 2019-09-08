@@ -34,8 +34,8 @@ public class Tc_002loginpage extends BaseClass
 		{
 			
 			Assert.assertTrue(true);
-			page.droupdownclick();
-			page.logout();
+			//page.droupdownclick();
+			//page.logout();
 			page.Clicklogin();
 		}else 
 		{

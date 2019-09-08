@@ -1,78 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="loginsuite" duration-ms="28833" started-at="2019-09-01T11:17:28Z" finished-at="2019-09-01T11:17:56Z">
+  <suite name="Default suite" duration-ms="50530" started-at="2019-09-08T20:57:23Z" finished-at="2019-09-08T20:58:14Z">
     <groups>
     </groups>
-    <test name="logintestTest" duration-ms="28833" started-at="2019-09-01T11:17:28Z" finished-at="2019-09-01T11:17:56Z">
+    <test name="Default test" duration-ms="50530" started-at="2019-09-08T20:57:23Z" finished-at="2019-09-08T20:58:14Z">
       <class name="com.pentpractice.testcases.Tc_00loginpage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@7cd62f43]" name="setup" is-config="true" duration-ms="4833" started-at="2019-09-01T11:17:28Z" finished-at="2019-09-01T11:17:33Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@685cb137]" name="setup" is-config="true" duration-ms="5433" started-at="2019-09-08T20:57:23Z" finished-at="2019-09-08T20:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logintest()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@7cd62f43]" name="logintest" duration-ms="11229" started-at="2019-09-01T11:17:33Z" finished-at="2019-09-01T11:17:44Z">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@685cb137]" name="logintest" duration-ms="45074" started-at="2019-09-08T20:57:28Z" finished-at="2019-09-08T20:58:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@7cd62f43]" name="teardoem" is-config="true" duration-ms="1546" started-at="2019-09-01T11:17:44Z" finished-at="2019-09-01T11:17:45Z">
+        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.pentpractice.testcases.Tc_00loginpage@685cb137]" name="teardoem" is-config="true" duration-ms="1" started-at="2019-09-08T20:58:14Z" finished-at="2019-09-08T20:58:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardoem -->
       </class> <!-- com.pentpractice.testcases.Tc_00loginpage -->
-      <class name="com.pentpractice.testcases.Tc_003loginpage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@6d4b1c02]" name="setup" is-config="true" duration-ms="4497" started-at="2019-09-01T11:17:45Z" finished-at="2019-09-01T11:17:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="logintest3()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@6d4b1c02]" name="logintest3" duration-ms="4646" started-at="2019-09-01T11:17:50Z" finished-at="2019-09-01T11:17:55Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.pentpractice.testcases.Tc_003loginpage.logintest3(Tc_003loginpage.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintest3 -->
-        <test-method status="PASS" signature="teardoem()[pri:0, instance:com.pentpractice.testcases.Tc_003loginpage@6d4b1c02]" name="teardoem" is-config="true" duration-ms="1828" started-at="2019-09-01T11:17:55Z" finished-at="2019-09-01T11:17:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardoem -->
-      </class> <!-- com.pentpractice.testcases.Tc_003loginpage -->
-    </test> <!-- logintestTest -->
-  </suite> <!-- loginsuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
