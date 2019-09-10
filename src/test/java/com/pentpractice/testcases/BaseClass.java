@@ -55,7 +55,7 @@ public class BaseClass {
 	@AfterClass
 	public void teardoem() 
 	{
-		//driver.quit();
+		driver.quit();
 	}
 	
 

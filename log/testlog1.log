@@ -139,3 +139,60 @@
 2019-09-08 22:57:37,725 [main] INFO pnetpractice - Enter the user name
 2019-09-08 22:57:37,811 [main] INFO pnetpractice - enter the password
 2019-09-08 22:57:38,113 [main] INFO pnetpractice - click on login button
+2019-09-09 07:24:49,615 [main] INFO pnetpractice - navigate the Url
+2019-09-09 07:24:50,111 [main] INFO pnetpractice - click the link
+2019-09-09 07:24:54,351 [main] INFO pnetpractice - Enter the user name
+2019-09-09 07:24:54,439 [main] INFO pnetpractice - enter the password
+2019-09-09 07:24:54,734 [main] INFO pnetpractice - click on login button
+2019-09-10 07:48:16,967 [main] INFO pnetpractice - navigate the Url
+2019-09-10 07:48:17,411 [main] INFO pnetpractice - click the link
+2019-09-10 07:48:21,593 [main] INFO pnetpractice - Enter the user name
+2019-09-10 07:48:21,707 [main] INFO pnetpractice - enter the password
+2019-09-10 07:48:22,006 [main] INFO pnetpractice - click on login button
+2019-09-10 18:58:49,285 [main] INFO pnetpractice - navigate the Url
+2019-09-10 18:58:49,684 [main] INFO pnetpractice - click the link
+2019-09-10 18:58:53,832 [main] INFO pnetpractice - Enter the user name
+2019-09-10 18:58:53,912 [main] INFO pnetpractice - enter the password
+2019-09-10 18:58:54,191 [main] INFO pnetpractice - click on login button
+2019-09-10 19:00:28,258 [main] INFO pnetpractice - navigate the Url
+2019-09-10 19:00:28,645 [main] INFO pnetpractice - click the link
+2019-09-10 19:00:28,804 [main] INFO pnetpractice - Enter the user name
+2019-09-10 19:00:28,896 [main] INFO pnetpractice - enter the wrong password
+2019-09-10 19:00:29,190 [main] INFO pnetpractice - click on login button
+2019-09-10 19:03:33,101 [main] INFO pnetpractice - navigate the Url
+2019-09-10 19:03:33,510 [main] INFO pnetpractice - click the link
+2019-09-10 19:03:33,674 [main] INFO pnetpractice - Enter the user name
+2019-09-10 19:03:33,769 [main] INFO pnetpractice - enter the wrong password
+2019-09-10 19:03:34,045 [main] INFO pnetpractice - click on login button
+2019-09-10 19:04:28,385 [main] INFO pnetpractice - navigate the Url
+2019-09-10 19:04:28,780 [main] INFO pnetpractice - click the link
+2019-09-10 19:04:28,952 [main] INFO pnetpractice - Enter the user name
+2019-09-10 19:04:29,060 [main] INFO pnetpractice - enter the wrong password
+2019-09-10 19:04:29,348 [main] INFO pnetpractice - click on login button
+2019-09-10 19:05:50,192 [main] INFO pnetpractice - navigate the Url
+2019-09-10 19:05:50,611 [main] INFO pnetpractice - click the link
+2019-09-10 19:05:54,775 [main] INFO pnetpractice - Enter the user name
+2019-09-10 19:05:54,856 [main] INFO pnetpractice - enter the password
+2019-09-10 19:05:55,126 [main] INFO pnetpractice - click on login button
+2019-09-10 19:07:22,382 [main] INFO pnetpractice - navigate the Url
+2019-09-10 19:07:22,753 [main] INFO pnetpractice - click the link
+2019-09-10 19:07:22,921 [main] INFO pnetpractice - Enter the user name
+2019-09-10 19:07:23,009 [main] INFO pnetpractice - enter the wrong password
+2019-09-10 19:07:23,287 [main] INFO pnetpractice - click on login button
+2019-09-10 19:09:27,462 [main] INFO pnetpractice - navigate the Url
+2019-09-10 19:09:27,862 [main] INFO pnetpractice - click the link
+2019-09-10 19:09:32,028 [main] INFO pnetpractice - Enter the user name
+2019-09-10 19:09:32,119 [main] INFO pnetpractice - enter the password
+2019-09-10 19:09:32,429 [main] INFO pnetpractice - click on login button
+2019-09-10 19:10:02,170 [main] INFO pnetpractice - navigate the Url
+2019-09-10 19:10:02,540 [main] INFO pnetpractice - click the link
+2019-09-10 19:10:02,720 [main] INFO pnetpractice - Enter the user name
+2019-09-10 19:10:02,824 [main] INFO pnetpractice - enter the wrong password
+2019-09-10 19:10:03,092 [main] INFO pnetpractice - click on login button
+2019-09-10 19:10:24,581 [main] INFO pnetpractice - login fail
+2019-09-10 19:12:34,473 [main] INFO pnetpractice - navigate the Url
+2019-09-10 19:12:34,848 [main] INFO pnetpractice - click the link
+2019-09-10 19:12:35,025 [main] INFO pnetpractice - Enter the user name
+2019-09-10 19:12:35,112 [main] INFO pnetpractice - enter the wrong password
+2019-09-10 19:12:35,398 [main] INFO pnetpractice - click on login button
+2019-09-10 19:12:56,385 [main] INFO pnetpractice - login pass

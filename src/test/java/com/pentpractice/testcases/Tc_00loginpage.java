@@ -67,7 +67,7 @@ public class Tc_00loginpage extends BaseClass {
 		
 		userpage.manageProfile();
 		
-		driver.findElement(By.xpath("//div[@class='head-logo']")).click();
+		//driver.findElement(By.xpath("//div[@class='head-logo']")).click();
 		
 		
 	/*	WebElement click = driver.findElement(By.xpath("//a[@class='masternav-item masternav-item_user hidden-xs hidden-sm hidden-md at-usermenu-mobile']"));
