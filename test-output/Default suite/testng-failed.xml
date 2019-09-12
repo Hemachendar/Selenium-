@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pentpractice.testcases.Tc_003loginpage">
+      <class name="com.pentpractice.testcases.Tc_004prataploginpage">
         <methods>
           <include name="teardoem"/>
-          <include name="logintest3"/>
+          <include name="logintest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.pentpractice.testcases.Tc_003loginpage -->
+      </class> <!-- com.pentpractice.testcases.Tc_004prataploginpage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

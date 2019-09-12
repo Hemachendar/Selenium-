@@ -196,3 +196,193 @@
 2019-09-10 19:12:35,112 - pnetpractice -INFO - enter the wrong password
 2019-09-10 19:12:35,398 - pnetpractice -INFO - click on login button
 2019-09-10 19:12:56,385 - pnetpractice -INFO - login pass
+2019-09-11 06:41:56,632 - pnetpractice -INFO - navigate the Url
+2019-09-11 06:41:57,036 - pnetpractice -INFO - click the link
+2019-09-11 06:42:01,182 - pnetpractice -INFO - Enter the user name
+2019-09-11 06:42:01,264 - pnetpractice -INFO - enter the password
+2019-09-11 06:42:01,548 - pnetpractice -INFO - click on login button
+2019-09-11 06:42:31,240 - pnetpractice -INFO - navigate the Url
+2019-09-11 06:42:31,602 - pnetpractice -INFO - click the link
+2019-09-11 06:42:31,770 - pnetpractice -INFO - Enter the user name
+2019-09-11 06:42:31,858 - pnetpractice -INFO - enter the wrong password
+2019-09-11 06:42:32,136 - pnetpractice -INFO - click on login button
+2019-09-11 06:42:52,751 - pnetpractice -INFO - login fail
+2019-09-12 06:26:38,465 - pnetpractice -INFO - navigate the Url
+2019-09-12 06:26:38,917 - pnetpractice -INFO - click the link
+2019-09-12 06:26:43,157 - pnetpractice -INFO - Enter the user name
+2019-09-12 06:26:43,237 - pnetpractice -INFO - enter the password
+2019-09-12 06:26:43,523 - pnetpractice -INFO - click on login button
+2019-09-12 06:27:17,369 - pnetpractice -INFO - navigate the Url
+2019-09-12 06:27:17,734 - pnetpractice -INFO - click the link
+2019-09-12 06:27:17,916 - pnetpractice -INFO - Enter the user name
+2019-09-12 06:27:18,000 - pnetpractice -INFO - enter the wrong password
+2019-09-12 06:27:18,306 - pnetpractice -INFO - click on login button
+2019-09-12 06:27:40,031 - pnetpractice -INFO - login fail
+2019-09-12 12:29:58,294 - pnetpractice -INFO - navigate the Url
+2019-09-12 12:29:58,702 - pnetpractice -INFO - click the link
+2019-09-12 12:30:02,939 - pnetpractice -INFO - Enter the user name: pratapkarthikeya@gmail.com
+2019-09-12 12:30:03,053 - pnetpractice -INFO - enter the password : Yogiparama99999
+2019-09-12 12:30:03,382 - pnetpractice -INFO - click on login button
+2019-09-12 12:37:45,857 - pnetpractice -INFO - navigate the Url
+2019-09-12 12:37:46,432 - pnetpractice -INFO - click the link
+2019-09-12 12:37:50,665 - pnetpractice -INFO - Enter the user name: pratapkarthikeya@gmail.com
+2019-09-12 12:37:50,759 - pnetpractice -INFO - enter the password : Yogiparama99999
+2019-09-12 12:37:51,046 - pnetpractice -INFO - click on login button
+2019-09-12 12:40:42,233 - pnetpractice -INFO - navigate the Url
+2019-09-12 12:40:42,648 - pnetpractice -INFO - click the link
+2019-09-12 12:40:46,860 - pnetpractice -INFO - Enter the user name: pratapkarthikeya@gmail.com
+2019-09-12 12:40:46,952 - pnetpractice -INFO - enter the password : Yogiparama99999
+2019-09-12 12:40:47,238 - pnetpractice -INFO - click on login button
+2019-09-12 12:40:47,503 - pnetpractice -INFO - pratap login fail: <p>E-mail and/or password you entered are not correct.</p>
+2019-09-12 12:51:36,751 - pnetpractice -INFO - navigate the Url
+2019-09-12 12:51:37,149 - pnetpractice -INFO - click the link
+2019-09-12 12:51:41,363 - pnetpractice -INFO - Enter the user name: pratapkarthikeya@gmail.com
+2019-09-12 12:51:41,446 - pnetpractice -INFO - enter the password : Yogiparama99999
+2019-09-12 12:51:41,721 - pnetpractice -INFO - click on login button
+2019-09-12 12:52:42,116 - pnetpractice -INFO - Click user dropdown
+2019-09-12 12:52:46,031 - pnetpractice -INFO - Clieck on manage/edit profile
+2019-09-12 12:52:49,376 - pnetpractice -INFO - click up date button
+2019-09-12 12:52:49,928 - pnetpractice -INFO -  clicked in edit
+2019-09-12 12:52:56,338 - pnetpractice -INFO - click on save
+2019-09-12 12:52:58,663 - pnetpractice -INFO - back to dropdown user link
+2019-09-12 12:53:01,253 - pnetpractice -INFO - manage update page
+2019-09-12 12:53:01,269 - pnetpractice -INFO - login fail
+2019-09-12 12:55:34,134 - pnetpractice -INFO - navigate the Url
+2019-09-12 12:55:34,578 - pnetpractice -INFO - click the link
+2019-09-12 12:55:38,809 - pnetpractice -INFO - Enter the user name: pratapkarthikeya@gmail.com
+2019-09-12 12:55:38,994 - pnetpractice -INFO - enter the password : Yogiparama99999
+2019-09-12 12:55:39,299 - pnetpractice -INFO - click on login button
+2019-09-12 12:56:39,627 - pnetpractice -INFO - Click user dropdown
+2019-09-12 12:56:42,428 - pnetpractice -INFO - Clieck on manage/edit profile
+2019-09-12 12:56:45,664 - pnetpractice -INFO - click up date button
+2019-09-12 12:56:46,201 - pnetpractice -INFO -  clicked in edit
+2019-09-12 12:56:52,602 - pnetpractice -INFO - click on save
+2019-09-12 12:56:54,947 - pnetpractice -INFO - back to dropdown user link
+2019-09-12 12:56:57,854 - pnetpractice -INFO - manage update Success 
+2019-09-12 12:56:57,861 - pnetpractice -INFO - login fail
+2019-09-12 12:58:34,409 - pnetpractice -INFO - navigate the Url
+2019-09-12 12:58:34,792 - pnetpractice -INFO - click the link
+2019-09-12 12:58:39,040 - pnetpractice -INFO - Enter the user name: pratapkarthikeya@gmail.com
+2019-09-12 12:58:39,127 - pnetpractice -INFO - enter the password : Yogiparama99999
+2019-09-12 12:58:39,409 - pnetpractice -INFO - click on login button
+2019-09-12 12:58:44,910 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:03:36,705 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:03:37,173 - pnetpractice -INFO - click the link
+2019-09-12 13:03:41,361 - pnetpractice -INFO - Enter the user name
+2019-09-12 13:03:41,440 - pnetpractice -INFO - enter the password
+2019-09-12 13:03:41,703 - pnetpractice -INFO - click on login button
+2019-09-12 13:03:43,099 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:03:46,812 - pnetpractice -INFO - Clieck on manage/edit profile
+2019-09-12 13:03:50,052 - pnetpractice -INFO - click up date button
+2019-09-12 13:03:50,544 - pnetpractice -INFO -  clicked in edit
+2019-09-12 13:03:56,950 - pnetpractice -INFO - click on save
+2019-09-12 13:03:59,310 - pnetpractice -INFO - back to dropdown user link
+2019-09-12 13:04:01,590 - pnetpractice -INFO - manage update page
+2019-09-12 13:04:01,611 - pnetpractice -INFO - login fail
+2019-09-12 13:04:11,995 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:04:12,370 - pnetpractice -INFO - click the link
+2019-09-12 13:04:12,531 - pnetpractice -INFO - Enter the user name
+2019-09-12 13:04:12,625 - pnetpractice -INFO - enter the wrong password
+2019-09-12 13:04:12,957 - pnetpractice -INFO - click on login button
+2019-09-12 13:04:15,411 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:04:18,817 - pnetpractice -INFO - Clieck on manage/edit profile
+2019-09-12 13:04:21,470 - pnetpractice -INFO - click up date button
+2019-09-12 13:04:22,026 - pnetpractice -INFO -  clicked in edit
+2019-09-12 13:04:28,440 - pnetpractice -INFO - click on save
+2019-09-12 13:04:30,774 - pnetpractice -INFO - back to dropdown user link
+2019-09-12 13:04:33,125 - pnetpractice -INFO - manage update page
+2019-09-12 13:04:33,145 - pnetpractice -INFO - login fail
+2019-09-12 13:04:41,813 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:04:42,193 - pnetpractice -INFO - click the link
+2019-09-12 13:04:46,374 - pnetpractice -INFO - Enter the user name: pratapkarthikeya@gmail.com
+2019-09-12 13:04:46,454 - pnetpractice -INFO - enter the password : Yogiparama99999
+2019-09-12 13:04:46,722 - pnetpractice -INFO - click on login button
+2019-09-12 13:04:50,974 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:07:02,480 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:07:02,893 - pnetpractice -INFO - click the link
+2019-09-12 13:07:07,066 - pnetpractice -INFO - Enter the user name
+2019-09-12 13:07:16,433 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:08:00,646 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:08:01,051 - pnetpractice -INFO - click the link
+2019-09-12 13:08:05,238 - pnetpractice -INFO - Enter the user name
+2019-09-12 13:08:05,317 - pnetpractice -INFO - enter the password
+2019-09-12 13:08:05,596 - pnetpractice -INFO - click on login button
+2019-09-12 13:08:07,026 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:08:10,152 - pnetpractice -INFO - Clieck on manage/edit profile
+2019-09-12 13:08:13,534 - pnetpractice -INFO - click up date button
+2019-09-12 13:08:14,179 - pnetpractice -INFO -  clicked in edit
+2019-09-12 13:08:20,610 - pnetpractice -INFO - click on save
+2019-09-12 13:08:22,975 - pnetpractice -INFO - back to dropdown user link
+2019-09-12 13:08:25,389 - pnetpractice -INFO - manage update page
+2019-09-12 13:08:25,405 - pnetpractice -INFO - login fail
+2019-09-12 13:08:35,674 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:08:36,074 - pnetpractice -INFO - click the link
+2019-09-12 13:08:36,265 - pnetpractice -INFO - Enter the user name
+2019-09-12 13:08:36,370 - pnetpractice -INFO - enter the wrong password
+2019-09-12 13:08:36,658 - pnetpractice -INFO - click on login button
+2019-09-12 13:08:39,356 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:08:43,155 - pnetpractice -INFO - Clieck on manage/edit profile
+2019-09-12 13:08:46,090 - pnetpractice -INFO - click up date button
+2019-09-12 13:08:46,626 - pnetpractice -INFO -  clicked in edit
+2019-09-12 13:08:53,079 - pnetpractice -INFO - click on save
+2019-09-12 13:08:55,374 - pnetpractice -INFO - back to dropdown user link
+2019-09-12 13:08:57,582 - pnetpractice -INFO - manage update page
+2019-09-12 13:08:57,602 - pnetpractice -INFO - login fail
+2019-09-12 13:09:06,652 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:09:07,003 - pnetpractice -INFO - click the link
+2019-09-12 13:09:11,220 - pnetpractice -INFO - Enter the user name: pratapkarthikeya@gmail.com
+2019-09-12 13:09:11,310 - pnetpractice -INFO - enter the password : yogiparama99999
+2019-09-12 13:09:11,578 - pnetpractice -INFO - click on login button
+2019-09-12 13:09:16,456 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:10:43,946 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:10:44,351 - pnetpractice -INFO - click the link
+2019-09-12 13:10:48,563 - pnetpractice -INFO - Enter the user name: pratapkarthikeya@gmail.com
+2019-09-12 13:10:48,631 - pnetpractice -INFO - enter the password : yogiparama99999
+2019-09-12 13:10:48,921 - pnetpractice -INFO - click on login button
+2019-09-12 13:11:49,297 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:11:53,166 - pnetpractice -INFO - Clieck on manage/edit profile
+2019-09-12 13:11:56,230 - pnetpractice -INFO - click up date button
+2019-09-12 13:11:56,755 - pnetpractice -INFO -  clicked in edit
+2019-09-12 13:12:03,122 - pnetpractice -INFO - click on save
+2019-09-12 13:12:05,458 - pnetpractice -INFO - back to dropdown user link
+2019-09-12 13:12:08,180 - pnetpractice -INFO - manage update Success 
+2019-09-12 13:12:08,200 - pnetpractice -INFO - login fail
+2019-09-12 13:12:43,547 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:12:44,002 - pnetpractice -INFO - click the link
+2019-09-12 13:12:48,175 - pnetpractice -INFO - Enter the user name
+2019-09-12 13:12:48,260 - pnetpractice -INFO - enter the password
+2019-09-12 13:12:48,533 - pnetpractice -INFO - click on login button
+2019-09-12 13:12:49,924 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:12:52,582 - pnetpractice -INFO - Clieck on manage/edit profile
+2019-09-12 13:12:55,849 - pnetpractice -INFO - click up date button
+2019-09-12 13:12:56,325 - pnetpractice -INFO -  clicked in edit
+2019-09-12 13:13:02,741 - pnetpractice -INFO - click on save
+2019-09-12 13:13:05,062 - pnetpractice -INFO - back to dropdown user link
+2019-09-12 13:13:07,395 - pnetpractice -INFO - manage update page
+2019-09-12 13:13:07,411 - pnetpractice -INFO - login fail
+2019-09-12 13:13:16,868 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:13:17,266 - pnetpractice -INFO - click the link
+2019-09-12 13:13:17,445 - pnetpractice -INFO - Enter the user name
+2019-09-12 13:13:17,553 - pnetpractice -INFO - enter the wrong password
+2019-09-12 13:13:17,847 - pnetpractice -INFO - click on login button
+2019-09-12 13:13:20,291 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:13:23,289 - pnetpractice -INFO - Clieck on manage/edit profile
+2019-09-12 13:13:26,469 - pnetpractice -INFO - click up date button
+2019-09-12 13:13:27,032 - pnetpractice -INFO -  clicked in edit
+2019-09-12 13:13:33,440 - pnetpractice -INFO - click on save
+2019-09-12 13:13:35,766 - pnetpractice -INFO - back to dropdown user link
+2019-09-12 13:13:38,335 - pnetpractice -INFO - manage update page
+2019-09-12 13:13:38,354 - pnetpractice -INFO - login fail
+2019-09-12 13:13:47,958 - pnetpractice -INFO - navigate the Url
+2019-09-12 13:13:48,318 - pnetpractice -INFO - click the link
+2019-09-12 13:13:52,533 - pnetpractice -INFO - Enter the user name: pratapkarthikeya@gmail.com
+2019-09-12 13:13:52,640 - pnetpractice -INFO - enter the password : yogiparama99999
+2019-09-12 13:13:52,913 - pnetpractice -INFO - click on login button
+2019-09-12 13:14:53,280 - pnetpractice -INFO - Click user dropdown
+2019-09-12 13:14:56,225 - pnetpractice -INFO - Clieck on manage/edit profile
+2019-09-12 13:14:59,450 - pnetpractice -INFO - click up date button
+2019-09-12 13:14:59,913 - pnetpractice -INFO -  clicked in edit
+2019-09-12 13:15:06,343 - pnetpractice -INFO - click on save
+2019-09-12 13:15:08,656 - pnetpractice -INFO - back to dropdown user link
+2019-09-12 13:15:11,129 - pnetpractice -INFO - manage update Success 
+2019-09-12 13:15:11,145 - pnetpractice -INFO - login fail

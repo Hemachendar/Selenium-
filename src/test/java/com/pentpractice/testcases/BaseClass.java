@@ -23,10 +23,12 @@ public class BaseClass {
 	
 	Readconfig Readcofig=new Readconfig();
 	public String Baseurl = Readcofig.getapplication();
-	public String usrname = Readcofig.getusername();
-	public String password = Readcofig.getpassword();
-	public String woringusrname=Readcofig.getworingusrname();
-	public String woringpassword=Readcofig.getworingpasswrd();
+	public String Husrname = Readcofig.getusername();
+	public String Hpassword = Readcofig.getpassword();
+	public String chanduusrname=Readcofig.getchanduusrname();
+	public String chandupassword=Readcofig.getchandupasswrd();
+	public String pratapuname=Readcofig.getpratapuname();
+	public String pratappass=Readcofig.getpratappass();
 	public static WebDriver driver;
 	public static Logger logger;
 	

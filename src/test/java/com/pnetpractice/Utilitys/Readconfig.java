@@ -40,15 +40,26 @@ public class Readconfig
 		String passwd = pro.getProperty("password");
 		return passwd;
 	}
-	public String getworingusrname() 
+	public String getchanduusrname() 
 	{
-		String uname = pro.getProperty("wornguname");
+		String uname = pro.getProperty("chanduuname");
 		return uname;
 	}
-	public String getworingpasswrd() 
+	public String getchandupasswrd() 
 	{
-		String wpass = pro.getProperty("worngpass");
+		String wpass = pro.getProperty("chandupass");
 		return wpass;
+		
+	}
+	public String getpratapuname() 
+	{
+		String uname = pro.getProperty("pratapuname");
+		return uname;
+	}
+	public String getpratappass() 
+	{
+		String pass = pro.getProperty("pratappass");
+		return pass;
 		
 	}
 
